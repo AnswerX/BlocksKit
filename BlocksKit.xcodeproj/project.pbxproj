@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7926551F2498985B0057F6D3 /* WKWebView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7926551D2498985B0057F6D3 /* WKWebView+BlocksKit.h */; };
+		792655202498985B0057F6D3 /* WKWebView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7926551E2498985B0057F6D3 /* WKWebView+BlocksKit.m */; };
 		DB4CA4261B3A662A004B70F8 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4051B3A662A004B70F8 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4271B3A662A004B70F8 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4051B3A662A004B70F8 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4281B3A662A004B70F8 /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4061B3A662A004B70F8 /* NSArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -372,6 +374,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7926551D2498985B0057F6D3 /* WKWebView+BlocksKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+BlocksKit.h"; sourceTree = "<group>"; };
+		7926551E2498985B0057F6D3 /* WKWebView+BlocksKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+BlocksKit.m"; sourceTree = "<group>"; };
 		DB4CA3F91B3A624B004B70F8 /* Common-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Common-Framework.xcconfig"; sourceTree = "<group>"; };
 		DB4CA3FA1B3A624B004B70F8 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
 		DB4CA3FB1B3A624B004B70F8 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
@@ -685,6 +689,8 @@
 				DB5C6C4F1C52009700778E5F /* UITextView+BlocksKit.m */,
 				DB4CA4A11B3A6657004B70F8 /* UIView+BlocksKit.h */,
 				DB4CA4A21B3A6657004B70F8 /* UIView+BlocksKit.m */,
+				7926551D2498985B0057F6D3 /* WKWebView+BlocksKit.h */,
+				7926551E2498985B0057F6D3 /* WKWebView+BlocksKit.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -926,6 +932,7 @@
 				DB4CA4281B3A662A004B70F8 /* NSArray+BlocksKit.h in Headers */,
 				DB4CA4731B3A662A004B70F8 /* NSTimer+BlocksKit.h in Headers */,
 				DB4CA4AF1B3A6657004B70F8 /* NSCache+BlocksKit.h in Headers */,
+				7926551F2498985B0057F6D3 /* WKWebView+BlocksKit.h in Headers */,
 				DB5C6C481C52005900778E5F /* NSNumber+BlocksKit.h in Headers */,
 				DB4CA4BE1B3A6657004B70F8 /* NSObject+A2DynamicDelegate.h in Headers */,
 				DB4CA4501B3A662A004B70F8 /* NSMutableOrderedSet+BlocksKit.h in Headers */,
@@ -1066,7 +1073,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BK;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Zachary Waldowski and Pandamonia LLC";
 				TargetAttributes = {
 					DB9B96171B3A52A700940D20 = {
@@ -1091,10 +1098,9 @@
 			};
 			buildConfigurationList = DB9B96121B3A52A700940D20 /* Build configuration list for PBXProject "BlocksKit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -1244,6 +1250,7 @@
 				DB5C6C4A1C52005900778E5F /* NSNumber+BlocksKit.m in Sources */,
 				DB4CA4751B3A662A004B70F8 /* NSTimer+BlocksKit.m in Sources */,
 				DB4CA4A71B3A6657004B70F8 /* A2BlockInvocation.m in Sources */,
+				792655202498985B0057F6D3 /* WKWebView+BlocksKit.m in Sources */,
 				DB4CA4341B3A662A004B70F8 /* NSIndexSet+BlocksKit.m in Sources */,
 				DB4CA42A1B3A662A004B70F8 /* NSArray+BlocksKit.m in Sources */,
 				DB4CA4481B3A662A004B70F8 /* NSMutableDictionary+BlocksKit.m in Sources */,
@@ -1386,6 +1393,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBBDD23E1B3A5782008909B0 /* Project-Debug.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				ENABLE_TESTABILITY = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -1396,6 +1411,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBBDD23F1B3A5782008909B0 /* Project-Release.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -1548,6 +1571,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB4CA3FC1B3A624B004B70F8 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULEMAP_FILE = "BlocksKit/Module-iOS.modulemap";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKit;
@@ -1562,6 +1586,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB4CA3FC1B3A624B004B70F8 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULEMAP_FILE = "BlocksKit/Module-iOS.modulemap";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.BlocksKit;
