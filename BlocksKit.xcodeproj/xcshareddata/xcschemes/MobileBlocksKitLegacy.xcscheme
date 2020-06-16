@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DB9B96171B3A52A700940D20"
-               BuildableName = "BlocksKit.framework"
-               BlueprintName = "MobileBlocksKit"
+               BlueprintIdentifier = "DB9B96511B3A531F00940D20"
+               BuildableName = "libMobileBlocksKitLegacy.a"
+               BlueprintName = "MobileBlocksKitLegacy"
                ReferencedContainer = "container:BlocksKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,28 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB9B96171B3A52A700940D20"
-            BuildableName = "BlocksKit.framework"
-            BlueprintName = "MobileBlocksKit"
-            ReferencedContainer = "container:BlocksKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DB9B96211B3A52A700940D20"
-               BuildableName = "BlocksKitTests.xctest"
-               BlueprintName = "MobileBlocksKitTests"
-               ReferencedContainer = "container:BlocksKit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -60,15 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB9B96171B3A52A700940D20"
-            BuildableName = "BlocksKit.framework"
-            BlueprintName = "MobileBlocksKit"
-            ReferencedContainer = "container:BlocksKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -79,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB9B96171B3A52A700940D20"
-            BuildableName = "BlocksKit.framework"
-            BlueprintName = "MobileBlocksKit"
+            BlueprintIdentifier = "DB9B96511B3A531F00940D20"
+            BuildableName = "libMobileBlocksKitLegacy.a"
+            BlueprintName = "MobileBlocksKitLegacy"
             ReferencedContainer = "container:BlocksKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
