@@ -40,3 +40,4 @@
 #import <BlocksKit/UITextField+BlocksKit.h>
 #import <BlocksKit/UITextView+BlocksKit.h>
 #import <BlocksKit/UIImagePickerController+BlocksKit.h>
+#import <BlocksKit/WKWebView+NlocksKit.h>
